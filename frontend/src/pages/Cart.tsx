@@ -78,7 +78,7 @@ export default function Cart() {
                     
                     <div className="text-right">
                       <p className="font-semibold text-lg">
-                        ${(item.price * item.quantity).toFixed(2)}
+                        Ksh {(item.price * item.quantity).toFixed(2)}
                       </p>
                     </div>
                   </div>
@@ -95,11 +95,11 @@ export default function Cart() {
                 <div className="space-y-2 mb-6">
                   <div className="flex justify-between">
                     <span className="text-muted-foreground">Subtotal</span>
-                    <span className="font-medium">${getTotalPrice().toFixed(2)}</span>
+                    <span className="font-medium">Ksh {getTotalPrice().toFixed(2)}</span>
                   </div>
                   <div className="flex justify-between text-lg font-bold pt-4 border-t">
                     <span>Total</span>
-                    <span>${getTotalPrice().toFixed(2)}</span>
+                    <span>Ksh {getTotalPrice().toFixed(2)}</span>
                   </div>
                 </div>
                 
