@@ -45,7 +45,7 @@ export default function Cart() {
                     )}
                     <div className="flex-1">
                       <h3 className="font-semibold text-lg">{item.title}</h3>
-                      <p className="text-muted-foreground">${item.price.toFixed(2)} each</p>
+                      <p className="text-muted-foreground">Ksh {item.price.toFixed(2)} each</p>
                       
                       <div className="flex items-center gap-4 mt-4">
                         <div className="flex items-center gap-2">
